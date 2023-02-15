@@ -1,11 +1,11 @@
 ### Comparing the prediction space of models
+This repository consists of: 
+* The visualisation engine 
+* The data retrieval jupyter notebooks
+* The KNIME workflows for ML- models training and prediciton
 
-## Data retrieval from ChEMBL 
 
-## KNIME workflows 
-There are KNIME workflows that were used for ML- models training and prediciton.
-
-##Visualisation 
+### Visualisation 
 The visualisation of the prediction space of ChEMBL and Naga et. al. models is an important tool for understanding the performance of these models and for identifying differences between them. This visualization is created using Uniform Manifold Approximation and Projection (UMAP) and a custom distance function that takes into account 95% structural similarity of the molecules and 5% proximity in the prediction space.
 
 To create this visualization, we have selected 10,000 random molecules from ChEMBL and visualized them using UMAP and our custom distance function. The visualization is interactive and allows for a detailed exploration of the prediction space of the models.
