@@ -4,6 +4,10 @@ This repository consists of:
 * The data retrieval jupyter notebooks
 * The KNIME workflows for ML- models training and prediciton
 
+## KNIME workflows 
+Two KNIME workflows are provided for generating off-target ML models and evaluating created models. `Generate_off-target_ml-model.knwf` KNIME workflow allows hyperparameter search, 5-fold cross-validation and generating final models that can be used for the evaluation in the `Test_models_fin.knwf` workflow. 
+
+KNIME version == 4.6
 
 ### Visualisation 
 The visualisation of the prediction space of ChEMBL and Naga et. al. models is an important tool for understanding the performance of these models and for identifying differences between them. This visualization is created using Uniform Manifold Approximation and Projection (UMAP) and a custom distance function that takes into account 95% structural similarity of the molecules and 5% proximity in the prediction space.
